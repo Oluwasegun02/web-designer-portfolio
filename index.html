@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <link rel="stylesheet" href="https://fontawesome.com">
+  <link rel="stylesheet" href="style.css">
+  <title>Personal Portfolio website</title>
+  <script src="https://kit.fontawesome.com/38a71874b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!-- <img src="" alt="logo" class="logo"> -->
+        <pre class="logo">Oluwasegun</pre>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Porfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h2>Full-Stack Software developer</h2>
+        <h1>Hi, I'm <span>Oluwasegun</span> <br> Ogunniyi</h1>
+      </div>
+    </div>
+  </div>
+<!-- ====== about ======= -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="img/passwort-removebg-preview.png" alt="user" srcset="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hi, I'm Oluwasegun Ogunniyi, a passionate FullStack Software developer with a love for clean and responsive web design. I am dedicated to creating websites that not only look great but also provide an exceptional user experience.</p>
+          <div class="tab-titles">
+            <p class="tab-lisks active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-lisks" onclick="opentab('experience')">Experience</p>
+            <p class="tab-lisks" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Frontend </span><br>Designing user-friendly web interface </li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development </span><br>Building Android/iOS apps </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022 - 2023 </span><br>Intership as Software Engineering backend at ALX </li>
+              <li><span>2021- Current</span><br>Full-Stack Developer Freelance</li>
+              <!-- <li><span>App Development </span><br>Building Android/iOS apps </li> -->
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023 </span><br>Software Engineering at ALX </li>
+              <li><span>2022</span><br>Web Development at Udemy</li>
+              <li><span>2023 </span><br>Computer Science at OSUOTECH</li> 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ++++++++++ services ++++++++++ -->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fas fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I am a creative and professional Web Designer  in designing and developing user-friendly websites.I am passionate about delivering high-quality web solutions that meet the needs and expectations of the users </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-crop-alt"></i>
+
+        <h2>SEO</h2>
+        <p>I am a results-oriented SEO specialist  in developing and implementing effective SEO strategies for various clients. I have a proven track record of increasing organic traffic, conversions, and revenue by applying best practices and data-driven insights</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <!-- <i class="fas fa-app-store"></i> -->
+
+        <!-- <h2>App Design</h2>
+        <p>I am a talented and innovative app designer  in creating engaging and user-friendly apps for various platforms. I have successfully designed and launched apps for clients in various domains, such as education, entertainment, and health</p> -->
+
+        <i class="fa-solid fa-database"></i>
+        <h2>Database Management</h2>
+        <p>I am a skilled and experienced database manager in designing, developing, and maintaining data storage systems.  I have successfully implemented solutions for data inconsistencies, improved data accuracy, and reduced project completion time by 25%.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- --------------- portfolio -------------  -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="img/project1.png" loading="lazy" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you and the Decorator and interiou funiture around the world.
+            Download it from play store or visit web site.</p>
+          </p>
+          <a href="https://homeinspirelandingpage.onrender.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="img/product.png" loading="lazy" alt="">
+        <div class="layer"> 
+          <h3>E-commerce Web App</h3>
+          <p>The app Connect seller to buyer and help seller to have full control and brige the gap of distance availability with product tracking and easy payment</p>
+          </p>
+          <a href="https://fangrance-e-commerce.alxprojectbase.repl.co/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="img/project3.png" loading="lazy" alt="">
+        <div class="layer">
+          <h3>School Web App</h3>
+          <p>The app connects you and the Decorator and interiou funiture around the world.
+            Download it from play store or visit web site.</p>
+          </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more </a>
+  </div>
+</div>
+<!-- *************** contact ******************* -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fas fa-paper-plane"></i>adebayoogunniyi8@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>7085045958</p>
+        <div class="social-icons">
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/AdebayoOgunniy3" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square"></i></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/oluwasegun-ogunniyi-286874234" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <a href="img/Softwareengineer.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form action="" name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy Oluwasegun. built with <i class="fas fa-heart"></i> by SegzyDev </p>
+  </div>
+</div>
+
+  <script>
+    var tablinks = document.getElementsByClassName('tab-lisks');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    var sidemenu = document.getElementById('sidemenu')
+
+    function closemenu(){
+      sidemenu.style.right = "200pc"
+    }
+
+    function openmenu() {
+      sidemenu.style.right = "0 ";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzC0PXwLYkd_q0MsuETTegrUhG488GDKvTN-Ssc-MqZzU9qGcjdAvRiQNFve0fl7iSwgQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },2000 )
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+</body>
+</html>
